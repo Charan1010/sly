@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/eng"
+    app:showAsAction="ifRoom|withText"
+    android:title="english"
+    android:visible="true"/>
+<item
+    android:id="@+id/tel"
+    app:showAsAction="ifRoom|withText"
+    android:title="hindi"
+    android:visible="true"/>
+<item
+    android:id="@+id/hin"
+    app:showAsAction="ifRoom|withText"
+    android:title="telugu"
+    android:visible="true"/>
+    <item
+        android:id="@+id/kan"
+        app:showAsAction="ifRoom|withText"
+        android:title="kannada"
+        android:visible="true"/>
+</menu>
